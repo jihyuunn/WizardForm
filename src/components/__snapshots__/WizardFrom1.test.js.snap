@@ -1,0 +1,133 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`WizardForm1 match to initial snapshot 1`] = `
+<WizardForm1>
+  <styled.div>
+    <StyledComponent
+      forwardedComponent={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "sc-bdVaJa",
+            "isStatic": false,
+            "lastClassName": "goXslx",
+            "rules": Array [
+              "
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  animation: ",
+              Keyframes {
+                "id": "sc-keyframes-iPYmJP",
+                "inject": [Function],
+                "name": "iPYmJP",
+                "rules": Array [
+                  "@-webkit-keyframes iPYmJP{0%{margin-left:30%;}80%{margin-left:5%;}100%{margin-left:0%;}}",
+                  "@keyframes iPYmJP{0%{margin-left:30%;}80%{margin-left:5%;}100%{margin-left:0%;}}",
+                ],
+                "toString": [Function],
+              },
+              " 1s linear;
+",
+            ],
+          },
+          "displayName": "styled.div",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "sc-bdVaJa",
+          "target": "div",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        }
+      }
+      forwardedRef={null}
+    >
+      <div
+        className="sc-bdVaJa goXslx"
+      >
+        <styled.div>
+          <StyledComponent
+            forwardedComponent={
+              Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "attrs": Array [],
+                "componentStyle": ComponentStyle {
+                  "componentId": "sc-bwzfXH",
+                  "isStatic": false,
+                  "lastClassName": "jLmMHk",
+                  "rules": Array [
+                    "
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+",
+                  ],
+                },
+                "displayName": "styled.div",
+                "foldedComponentIds": Array [],
+                "render": [Function],
+                "styledComponentId": "sc-bwzfXH",
+                "target": "div",
+                "toString": [Function],
+                "warnTooManyClasses": [Function],
+                "withComponent": [Function],
+              }
+            }
+            forwardedRef={null}
+          >
+            <div
+              className="sc-bwzfXH jLmMHk"
+            >
+              <label
+                htmlFor="amount"
+              >
+                Amount
+              </label>
+              <input
+                id="amount"
+                placeholder="Enter amount"
+                type="text"
+              />
+              <label
+                htmlFor="backload"
+              >
+                backload
+              </label>
+              <input
+                id="backload"
+                placeholder="Enter backload term"
+                type="number"
+              />
+              <label
+                htmlFor="returning"
+              >
+                Returning
+              </label>
+              <input
+                id="returning"
+                placeholder="Enter returning term"
+                type="number"
+              />
+            </div>
+          </StyledComponent>
+        </styled.div>
+        <div>
+          <button>
+            Prev
+          </button>
+          <button
+            onClick={[Function]}
+          >
+            Next
+          </button>
+        </div>
+      </div>
+    </StyledComponent>
+  </styled.div>
+</WizardForm1>
+`;
